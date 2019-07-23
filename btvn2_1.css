@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    height:150px ;
+    width: 100%;
+    border: 3px solid #6AC5AB;
+    position: relative;
+      
+}
+.absoluteCon {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 134px;
+    height: 20px;
+    background-color: #6AC5AB;
+  }
+  nav{
+      border: 2px solid palevioletred;
+      height: 140px;
+      width: 30%;
+  }
+  section{
+        height: 72px;
+        width: 890px;
+      border: 2px solid orange;
+  }
+  nav ul{
+        color: palevioletred;
+  }
+  .absoluteSec {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 70px;
+    height: 18px;
+    background-color: orange;
+    border: 2px solid orange;
+  }
+  .absoluteNav{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 18px;
+    background-color: palevioletred;
+    color: white;
+  }
+  .absoluteNavBottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 18px;
+    background-color: palevioletred;
+    color: white;
+  }
